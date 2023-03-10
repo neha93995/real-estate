@@ -1,0 +1,351 @@
+
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+body{
+    background-color: #e9edf1;
+}
+
+
+/* ---------------header section ----------- */
+
+.container{
+    /* background-image: url("./Photos/mainBackground.png"); */
+    background-image: linear-gradient(rgb(0, 0, 0,0.5) ,rgb(0, 0, 0,0.5)), url("./Photos/mainBackground.png");
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(0, 0, 0,0.5); */
+    color: white;
+    padding: 0 10%;
+}
+
+
+
+/* ------------nav-----------*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.5);
+}
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: larger;
+}
+.nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------header content -------------- */
+
+.content
+{
+    margin: 10% 20px;
+}
+.content-heading
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.content-para
+{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.content-btn
+{
+    font-size: larger;
+    background-color: #6C00FF;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+/* -------------------------section 2----------------- */
+
+.logo-box{
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    border-radius: 20px;
+}
+
+.logo-box img
+{
+    height: 20px;
+}
+
+
+
+/* ---------------------card section----------------- */
+
+
+.card-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 60px 0;
+}
+
+.card-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card-wrap{
+    margin: 50px 0;
+    width: 30%;
+    height: 350px;
+    
+    
+}
+
+
+.card{
+    border-radius:20px;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.card-description{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    border-radius: 20px;
+}
+
+.card-description div p{
+    color: #6C00FF;
+    font-weight: 600;
+}
+.card-description div h2{
+    font-size: 1rem;    
+}
+
+
+.card-btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6C00FF;
+    color: #fff;
+    font-size: small;
+}
+
+.card-wrap{
+    position: relative;
+}
+.card2{
+    top: 25px;
+}
+.card3{
+    top: 50px;
+}
+.card5{
+    bottom: 25px;
+}
+.card6{
+    bottom: 50px;
+}
+.card7{
+    bottom: 60px;
+}
+.card8{
+    bottom: 35px;
+}
+.card9{
+    bottom: 10px;
+}
+
+
+
+/* ------------------facility section--------------- */
+
+.facility{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facility .featuresImage{
+    position: relative;
+}
+
+
+.imagebg{
+    height: 400px;
+
+}
+.image{
+    position: absolute;
+    left: 20%;
+    top: -15px;
+    height: 300px;
+    width: 350px;
+    border-radius: 50px;
+}
+.facility-content{
+    margin: 30px;
+}
+.facility-content h1{
+    font-size: 3rem;
+
+}
+.facility-content p{
+    font-size: 15px;
+    margin: 30px 0;
+}
+.facility-content button{
+    font-size: 19px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4649FF;
+    color: #fff;
+    border: none;
+}
+
+
+.image21{
+    width: 570px;
+}
+
+
+/* ------------article section---------------- */
+
+.article-section{
+    width: 70%;
+    margin: auto;
+    padding: 50px 80px;
+    color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    background-color: #6663e9;
+}
+
+.article-section h1{
+    font-size: 3rem;
+}
+.article-section p{
+    font-size: 19px;
+    margin: 50px 150px;
+}
+
+.subscribe-box div input::placeholder{
+    color: white;
+}
+.subscribe-box{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-box div input{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin: 0 10px;
+}
+.subscribe-box div img{
+    position: absolute;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-box div{
+    background-color:rgba(52, 52, 194, 0.5);
+    width: 30%;
+    padding: 10px 15px;
+    margin: 0 20px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.subscribe-box button{
+    background-color: #fff;
+    color: #6663e9 ;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+
+
+/* -----------------footer------------- */
+
+
+.footer{
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 30%;
+}
+.footer-logo img{
+    width: 150px;
+    height: 120px;
+}
+.footer-logo p{
+    margin: 30px 0;
+}
+
+.footer-logo div img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.footer-content{
+    display: flex;
+    gap: 120px;
+    text-align: center;
+}
+
+.footer-content div ul li{
+    margin: 15px;
+    list-style: none;
+}
+
